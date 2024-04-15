@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">BLACKJACK</h1>
+      <div>
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+          <img id="hidden" src="./cards/BACK.png" />
+        </div>
+      </div>
+      <div>
+        <h2>Player: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+        <div id="play-buttons">
+          <button id="hit">Hit</button>
+          <button id="stay">Stay</button>
+        </div>
+        <div id="results"><p>Results</p></div>
+      </div>
+      <div>
+        <a href="game.html"><button id="restart">Restart Game</button></a>
+      </div>
+    </div>
+  </body>
+</html>
